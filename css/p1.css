@@ -1,0 +1,224 @@
+body{background: url("../images/p1-bg.jpg") center no-repeat; background-size: 100% 100%;}
+.rel{ position: relative;}
+.header{
+    margin: auto;
+    width: 100%;
+    height: 30%;
+}
+.topbar{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    height: 68px;
+    background: url("../images/header.png") center no-repeat;
+    background-size: 100% 100%;
+    /*transition: top 0.5s ease;*/
+    -webkit-animation: heads 0.5s ease alternate;
+    -moz-animation: heads 0.5s ease alternate;
+    animation: heads 0.5s ease alternate;
+}
+.wrapper{
+    margin: auto;
+    width: 100%;
+    height: 50%;
+}
+.p1-content{
+    margin: auto;
+    width: 115px;
+    height: 100%;
+}
+.p1-iphone{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 225px;
+    background: url("../images/p1-iphone.png") center no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: p1i 0.5s ease-out alternate;
+    -moz-animation: p1i 0.5s ease-out alternate;
+    animation: p1i 0.5s ease-out alternate;
+}
+.p1-c{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 225px;
+    background: url("../images/p1-c.png") center no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: p1c 0.5s ease-out alternate;
+    -moz-animation: p1c 0.5s ease-out alternate;
+    animation: p1c 0.5s ease-out alternate;
+}
+.footer{
+    margin: auto;
+    width: 100%;
+    height: 20%;
+}
+.p1-footer{
+    margin: auto;
+    width: 125px;
+    height: 100%;
+}
+.download{
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    background: url("../images/download.png") center no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: down 0.5s ease-out alternate;
+    -moz-animation: down 0.5s ease-out alternate;
+    animation: down 0.5s ease-out alternate;
+}
+.p1-bottom{
+    margin: auto;
+    width: 100%;
+    height: 30px;
+}
+.momo{
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 75px;
+    height: 100%;
+    background: url("../images/momo.png") center no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: momo 0.5s ease-out alternate;
+    -moz-animation: momo 0.5s ease-out alternate;
+    animation: momo 0.5s ease-out alternate;
+}
+.arrow{
+    position: absolute;
+    top: 0;
+    left: 85px;
+    width: 30px;
+    height: 100%;
+    background: url("../images/arrow.png") center no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: arrow 1s ease infinite;
+    -moz-animation: arrow 1s ease infinite;
+    animation: arrow 1s ease infinite;
+}
+@-webkit-keyframes heads {
+    from {
+        top: -68px;
+    }
+    to {
+        top: 30%;
+    }
+}
+@keyframes heads {
+    from {
+        top: -68px;
+    }
+    to {
+        top: 30%;
+    }
+}
+@-webkit-keyframes p1i {
+    0% {
+        top: -225px;
+    }
+    60%{
+        top: 50px;
+    }
+    85%{
+        top: -10px;
+    }
+    100% {
+        top: 0%;
+    }
+}
+@keyframes p1i {
+    0% {
+        top: -225px;
+    }
+    60%{
+        top: 50px;
+    }
+    85%{
+        top: -10px;
+    }
+    100% {
+        top: 0%;
+    }
+}
+@-webkit-keyframes p1c {
+    from {
+        background-size: 30% 30%;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+        opacity: 0.25;
+    }
+    to {
+        background-size: 100% 100%;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        opacity: 1;
+    }
+}
+@keyframes p1c {
+    from {
+        background-size: 30% 30%;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+        opacity: 0.25;
+    }
+    to {
+        background-size: 100% 100%;
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes down {
+    from {
+        background-size: 50% 50%;
+    }
+    to {
+        background-size: 100% 100%;
+    }
+}
+@keyframes down {
+    from {
+        background-size: 50% 50%;
+    }
+    to {
+        background-size: 100% 100%;
+    }
+}
+@-webkit-keyframes momo {
+    from {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+        opacity: 0.25;
+    }
+    to {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        opacity: 1;
+    }
+}
+@keyframes momo {
+    from {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+        opacity: 0.25;
+    }
+    to {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes arrow {
+    0% {
+        top:10px
+    }
+    100% {
+        top:-10px;
+    }
+}
+@keyframes arrow {
+    0% {
+        top:10px
+    }
+    100% {
+        top:-10px;
+    }
+}

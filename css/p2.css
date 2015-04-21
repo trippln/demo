@@ -1,0 +1,379 @@
+body{background: url("../images/p2-bg.jpg") center no-repeat; background-size: 100% 100%;}
+.rel{ position: relative;}
+.header{
+    margin: auto;
+    width: 100%;
+    height: 43px;
+}
+.topbg{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+    opacity: 0.25;
+}
+.topbar{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("../images/p2-top.png") center no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: topbar 0.5s ease-out alternate;
+    -moz-animation: topbar 0.5s ease-out alternate;
+    animation: topbar 0.5s ease-out alternate;
+}
+.wrapper{
+    margin: auto;
+    width: 100%;
+    height: 300px;
+}
+.yaojiang{
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 120px;
+    height: 80px;
+    background: url("../images/yaojiang.png") left bottom no-repeat;
+    background-size: 100% 100%;
+}
+.p2-1c{
+    position: absolute;
+    top: 75px;
+    left: 60px;
+    width: 190px;
+    height: 190px;
+    background: url("../images/p2-1c.gif") center no-repeat;
+    background-size: 100% 100%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=65);
+    opacity: 0.65;
+    -webkit-animation: p2-1c 0.5s ease-out alternate;
+    -moz-animation: p2-1c 0.5s ease-out alternate;
+    animation: p2-1c 0.5s ease-out alternate;
+}
+.p2-2c{
+    position: absolute;
+    top: 60px;
+    left: -300px;
+    width: 200px;
+    height: 200px;
+    background: url("../images/p2-2c.gif") center no-repeat;
+    background-size: 100% 100%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+    opacity: 0.75;
+    -webkit-animation: p2-2c 0.5s ease-out 0.1s alternate;
+    -moz-animation: p2-2c 0.5s ease-out 0.1s alternate;
+    animation: p2-2c 0.5s ease-out 0.1s alternate;
+}
+.p2-2c-end{
+    left: 50px;
+}
+.p2-3c{
+    position: absolute;
+    top: 50px;
+    left: -300px;
+    width: 200px;
+    height: 200px;
+    background: url("../images/p2-3c.gif") center no-repeat;
+    background-size: 100% 100%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+    opacity: 0.85;
+    -webkit-animation: p2-3c 0.5s ease-out 0.2s alternate;
+    -moz-animation: p2-3c 0.5s ease-out 0.2s alternate;
+    animation: p2-3c 0.5s ease-out 0.2s alternate;
+}
+.p2-3c-end{
+    left: 40px;
+}
+.p2-4c{
+    position: absolute;
+    top: 40px;
+    left: -300px;
+    width: 200px;
+    height: 200px;
+    background: url("../images/p2-4c.gif") center no-repeat;
+    background-size: 100% 100%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    -webkit-animation: p2-4c 0.5s ease-out 0.3s alternate;
+    -moz-animation: p2-4c 0.5s ease-out 0.3s alternate;
+    animation: p2-4c 0.5s ease-out 0.3s alternate;
+}
+.p2-4c-end{
+    left: 30px;
+}
+.p2-i{
+    position: absolute;
+    top: 42px;
+    left: 400px;
+    width: 225px;
+    height: 260px;
+    background: url("../images/p2-iphone.png") center no-repeat;
+    background-size: 100% 100%;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    -webkit-animation: p2i 0.5s ease-out 0.5s alternate;
+    -moz-animation: p2i 0.5s ease-out 0.5s alternate;
+    animation: p2i 0.5s ease-out 0.5s alternate;
+}
+.p2-i-end{
+    left: 44px;
+}
+.content-b{
+    margin: 5px auto 0;
+    width: 100%;
+    height: 60px;
+}
+.c-b-1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: url("../images/huafei.png") left bottom no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: cb1 0.5s ease-out alternate;
+    -moz-animation: cb1 0.5s ease-out alternate;
+    animation: cb1 0.5s ease-out alternate;
+}
+.c-b-2{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    background: url("../images/meiri.png") left bottom no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: cb2 0.6s ease-out alternate;
+    -moz-animation: cb2 0.6s ease-out alternate;
+    animation: cb2 0.6s ease-out alternate;
+}
+.footer{
+    margin: auto;
+    width: 325px;
+    height: 40px;
+    background: url("../images/faxianwo.png") center no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: foot 0.5s ease-out alternate;
+    -moz-animation: foot 0.5s ease-out alternate;
+    animation: foot 0.5s ease-out alternate;
+}
+.arrow{
+    position: absolute;
+    top: 0;
+    right: 100px;
+    width: 30px;
+    height: 100%;
+    background: url("../images/arrow.png") center no-repeat;
+    background-size: 100% 100%;
+    -webkit-animation: arrow 1s ease infinite;
+    -moz-animation: arrow 1s ease infinite;
+    animation: arrow 1s ease infinite;
+}
+@-webkit-keyframes topbar {
+    from {
+        background-size: 50% 50%;
+    }
+    to {
+        background-size: 100% 100%;
+    }
+}
+@keyframes topbar {
+    from {
+        background-size: 50% 50%;
+    }
+    to {
+        background-size: 100% 100%;
+    }
+}
+@-webkit-keyframes p2i {
+    0% {
+        left: 400px;
+    }
+    70% {
+        left: 30px;
+    }
+    100% {
+        left: 44px;
+    }
+}
+@keyframes p2i {
+    0% {
+        left: 400px;
+    }
+    70% {
+        left: 30px;
+    }
+    100% {
+        left: 44px;
+    }
+}
+@-webkit-keyframes p2-1c {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 60px;
+    }
+}
+@keyframes p2-1c {
+    0% {
+        left: -200px;
+    }
+    100% {
+        left: 60px;
+    }
+}
+@-webkit-keyframes p2-2c {
+    0% {
+        top: 75px;
+        left: -200px;
+    }
+    100% {
+        top: 75px;
+        left: 60px;
+    }
+}
+@keyframes p2-2c {
+    0% {
+        top: 75px;
+        left: -200px;
+    }
+    100% {
+        top: 75px;
+        left: 60px;
+    }
+}
+@-webkit-keyframes p2-3c {
+    0% {
+        top: 75px;
+        left: -200px;
+    }
+    100% {
+        top: 75px;
+        left: 60px;
+    }
+}
+@keyframes p2-3c {
+    0% {
+        top: 75px;
+        left: -200px;
+    }
+    100% {
+        top: 75px;
+        left: 60px;
+    }
+}
+@-webkit-keyframes p2-4c {
+    0% {
+        top: 75px;
+        left: -200px;
+    }
+    100% {
+        top: 75px;
+        left: 60px;
+    }
+}
+@keyframes p2-4c {
+    0% {
+        top: 75px;
+        left: -200px;
+    }
+    100% {
+        top: 75px;
+        left: 60px;
+    }
+}
+
+@-webkit-keyframes cb1 {
+    0% {
+        left: 320px;
+    }
+    80% {
+        left: -50px;
+    }
+    100% {
+        left: 0;
+    }
+}
+@keyframes cb1 {
+    0% {
+        left: 320px;
+    }
+    80% {
+        left: -50px;
+    }
+    100% {
+        left: 0;
+    }
+}
+@-webkit-keyframes cb2 {
+    0% {
+        left: 320px;
+    }
+    80% {
+        left: -50px;
+    }
+    100% {
+        left: 0;
+    }
+}
+@keyframes cb2 {
+    0% {
+        left: 320px;
+    }
+    80% {
+        left: -50px;
+    }
+    100% {
+        left: 0;
+    }
+}
+@-webkit-keyframes foot {
+    0% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 0.25;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+@keyframes foot {
+    0% {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+    }
+    70% {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+        opacity: 0;
+    }
+    80% {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=25);
+        opacity: 0.25;
+    }
+    100% {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+        opacity: 1;
+    }
+}
+@-webkit-keyframes arrow {
+    0% {
+        top:10px
+    }
+    100% {
+        top:-10px;
+    }
+}
+@keyframes arrow {
+    0% {
+        top:10px
+    }
+    100% {
+        top:-10px;
+    }
+}
